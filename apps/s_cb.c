@@ -260,7 +260,11 @@ static const char *get_sigtype(int nid)
         return "Dilithium-3";
      case NID_dilithium4:
         return "Dilithium-4"; 
+     case NID_oqsdefaultsig:
+        return "OQS Default Signature Algorithm";
      /* ADD_MORE_OQS_SIG_HERE */
+     case NID_p256_oqsdefaultsig:
+        return "ECDSA p256 - OQS Default Signature Algorithm";
      case NID_p256_picnicL1FS:
         return "ECDSA p256 - Picnic L1 FS";
      case NID_rsa3072_picnicL1FS:

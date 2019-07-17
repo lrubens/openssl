@@ -37,6 +37,8 @@ p384_qteslaIIIspeed undef     p384_qteslaIIIspeed
 dilithium2         undef     dilithium2
 dilithium3         undef     dilithium3
 dilithium4         undef     dilithium4
+oqsdefaultsig         undef     oqsdefaultsig
+p256_oqsdefaultsig    undef     p256_oqsdefaultsig
 # ADD_MORE_OQS_SIG_HERE
 
 

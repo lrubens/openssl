@@ -95,8 +95,10 @@ extern const EVP_PKEY_ASN1_METHOD qteslaIIIspeed_asn1_meth;
 extern const EVP_PKEY_ASN1_METHOD dilithium2_asn1_meth;
 extern const EVP_PKEY_ASN1_METHOD dilithium3_asn1_meth;
 extern const EVP_PKEY_ASN1_METHOD dilithium4_asn1_meth;
+extern const EVP_PKEY_ASN1_METHOD oqsdefaultsig_asn1_meth;
 /* ADD_MORE_OQS_SIG_HERE */
 /* OQS hybrid schemes */
+extern const EVP_PKEY_ASN1_METHOD p256_oqsdefaultsig_asn1_meth;
 extern const EVP_PKEY_ASN1_METHOD p256_picnicL1FS_asn1_meth;
 extern const EVP_PKEY_ASN1_METHOD rsa3072_picnicL1FS_asn1_meth;
 extern const EVP_PKEY_ASN1_METHOD p256_qteslaI_asn1_meth;

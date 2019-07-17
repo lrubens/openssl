@@ -92,6 +92,8 @@ static const nid_triple sigoid_srt[] = {
     {NID_dilithium2, NID_undef, NID_dilithium2},
     {NID_dilithium3, NID_undef, NID_dilithium3},
     {NID_dilithium4, NID_undef, NID_dilithium4},
+    {NID_oqsdefaultsig, NID_undef, NID_oqsdefaultsig},
+    {NID_p256_oqsdefaultsig, NID_undef, NID_p256_oqsdefaultsig},
 };
 
 static const nid_triple *const sigoid_srt_xref[] = {

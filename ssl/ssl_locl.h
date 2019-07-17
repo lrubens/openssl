@@ -218,6 +218,8 @@
 # define SSL_aDILITHIUM3         0x00080000U
 /* Dilithium 4 auth */
 # define SSL_aDILITHIUM4         0x00100000U
+/* OQS_SIG_DEFAULT auth */
+# define SSL_aOQSDEFAULTSIG      0x01000000U
 /* ADD_MORE_OQS_SIG_HERE */
 /* OQS hybrid schemes */
 /* ECDSA P256 - Picnic L1 FS auth */
@@ -232,6 +234,8 @@
 # define SSL_aP384QTESLAIIISIZE  0x00010000U
 /* ECDSA P384 - qTESLA III speed auth */
 # define SSL_aP384QTESLAIIISPEED 0x00020000U
+/* ECDSA P256 - OQS_SIG_DEFAULT */
+# define SSL_aP256OQSDEFAULTSIG 0x02000000U
 /* ADD_MORE_OQS_SIG_HERE hybrid only */
 #endif
 /* Any appropriate signature auth (for TLS 1.3 ciphersuites) */
@@ -422,9 +426,10 @@
 # define SSL_PKEY_QTESLAI        10
 # define SSL_PKEY_QTESLAIIISIZE  11
 # define SSL_PKEY_QTESLAIIISPEED 12
-# define SSL_PKEY_DILITHIUM2     19
-# define SSL_PKEY_DILITHIUM3     20
-# define SSL_PKEY_DILITHIUM4     21
+# define SSL_PKEY_DILITHIUM2     20
+# define SSL_PKEY_DILITHIUM3     21
+# define SSL_PKEY_DILITHIUM4     22
+# define SSL_PKEY_OQSDEFAULTSIG  23
 /* ADD_MORE_OQS_SIG_HERE */
 /* OQS hybrid schemes */
 # define SSL_PKEY_P256_PICNICL1FS     13
@@ -433,8 +438,9 @@
 # define SSL_PKEY_RSA3072_QTESLAI     16
 # define SSL_PKEY_P384_QTESLAIIISIZE  17
 # define SSL_PKEY_P384_QTESLAIIISPEED 18
-/* ADD_MORE_OQS_SIG_HERE */
-# define SSL_PKEY_NUM            22
+# define SSL_PKEY_P256_OQSDEFAULTSIG  19
+/* ADD_MORE_OQS_SIG_HERE hybrid only */
+# define SSL_PKEY_NUM            24
 #else
 # define SSL_PKEY_NUM            9
 #endif
@@ -2388,9 +2394,10 @@ typedef enum downgrade_en {
 #define TLSEXT_SIGALG_qteslaI                                   0xfe01 /* private use code point */
 #define TLSEXT_SIGALG_qteslaIIIsize                             0xfe02 /* private use code point */
 #define TLSEXT_SIGALG_qteslaIIIspeed                            0xfe03 /* private use code point */
-#define TLSEXT_SIGALG_dilithium2                                0xfe0a /* private use code point */
-#define TLSEXT_SIGALG_dilithium3                                0xfe0b /* private use code point */
-#define TLSEXT_SIGALG_dilithium4                                0xfe0c /* private use code point */
+#define TLSEXT_SIGALG_dilithium2                                0xfe0b /* private use code point */
+#define TLSEXT_SIGALG_dilithium3                                0xfe0c /* private use code point */
+#define TLSEXT_SIGALG_dilithium4                                0xfe0d /* private use code point */
+#define TLSEXT_SIGALG_oqsdefaultsig                             0xfe0e /* private use code point */
 /* ADD_MORE_OQS_SIG_HERE */
 /* OQS hybrid schemes */
 #define TLSEXT_SIGALG_p256_picnicL1FS                           0xfe04 /* private use code point */
@@ -2399,6 +2406,7 @@ typedef enum downgrade_en {
 #define TLSEXT_SIGALG_rsa3072_qteslaI                           0xfe07 /* private use code point */
 #define TLSEXT_SIGALG_p384_qteslaIIIsize                        0xfe08 /* private use code point */
 #define TLSEXT_SIGALG_p384_qteslaIIIspeed                       0xfe09 /* private use code point */
+#define TLSEXT_SIGALG_p256_oqsdefaultsig 0xfe0a /* private use code point */
 /* ADD_MORE_OQS_SIG_HERE hybrid only */
 #endif
 

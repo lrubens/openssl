@@ -814,6 +814,7 @@ static const uint16_t tls12_sigalgs[] = {
     TLSEXT_SIGALG_dilithium2,
     TLSEXT_SIGALG_dilithium3,
     TLSEXT_SIGALG_dilithium4,
+    TLSEXT_SIGALG_oqsdefaultsig,
     /* ADD_MORE_OQS_SIG_HERE */
     /* OQS hybrid schemes*/
     TLSEXT_SIGALG_p256_picnicL1FS,
@@ -822,6 +823,7 @@ static const uint16_t tls12_sigalgs[] = {
     TLSEXT_SIGALG_rsa3072_qteslaI,
     TLSEXT_SIGALG_p384_qteslaIIIsize,
     TLSEXT_SIGALG_p384_qteslaIIIspeed,
+    TLSEXT_SIGALG_p256_oqsdefaultsig,
     /* ADD_MORE_OQS_SIG_HERE hybrid only */
 #endif
 
@@ -975,6 +977,9 @@ static const SIGALG_LOOKUP sigalg_lookup_tbl[] = {
     {"dilithium4", TLSEXT_SIGALG_dilithium4,
      NID_undef, -1, EVP_PKEY_DILITHIUM4, SSL_PKEY_DILITHIUM4,
      NID_undef, NID_undef},  
+    {"oqsdefaultsig", TLSEXT_SIGALG_oqsdefaultsig,
+     NID_undef, -1, EVP_PKEY_OQSDEFAULTSIG, SSL_PKEY_OQSDEFAULTSIG,
+     NID_undef, NID_undef},
     /* ADD_MORE_OQS_SIG_HERE */
     /* OQS hybrid schemes */
     {"p256_picnicL1FS", TLSEXT_SIGALG_p256_picnicL1FS,
@@ -994,6 +999,9 @@ static const SIGALG_LOOKUP sigalg_lookup_tbl[] = {
      NID_undef, NID_undef},
     {"p384_qteslaIIIspeed", TLSEXT_SIGALG_p384_qteslaIIIspeed,
      NID_undef, -1, EVP_PKEY_P384_QTESLAIIISPEED, SSL_PKEY_P384_QTESLAIIISPEED,
+     NID_undef, NID_undef},
+    {"p256_oqsdefaultsig", TLSEXT_SIGALG_p256_oqsdefaultsig,
+     NID_undef, -1, EVP_PKEY_P256_OQSDEFAULTSIG, SSL_PKEY_P256_OQSDEFAULTSIG,
      NID_undef, NID_undef},
     /* ADD_MORE_OQS_SIG_HERE hybrid only */
 #endif
@@ -2609,6 +2617,7 @@ void tls1_set_cert_validity(SSL *s)
     tls1_check_chain(s, NULL, NULL, NULL, SSL_PKEY_DILITHIUM2);
     tls1_check_chain(s, NULL, NULL, NULL, SSL_PKEY_DILITHIUM3);
     tls1_check_chain(s, NULL, NULL, NULL, SSL_PKEY_DILITHIUM4);
+    tls1_check_chain(s, NULL, NULL, NULL, SSL_PKEY_OQSDEFAULTSIG);
     /* ADD_MORE_OQS_SIG_HERE */
     /* OQS hybrid schemes */
     tls1_check_chain(s, NULL, NULL, NULL, SSL_PKEY_P256_PICNICL1FS);
@@ -2617,6 +2626,7 @@ void tls1_set_cert_validity(SSL *s)
     tls1_check_chain(s, NULL, NULL, NULL, SSL_PKEY_RSA3072_QTESLAI);
     tls1_check_chain(s, NULL, NULL, NULL, SSL_PKEY_QTESLAIIISIZE);
     tls1_check_chain(s, NULL, NULL, NULL, SSL_PKEY_QTESLAIIISPEED);
+    tls1_check_chain(s, NULL, NULL, NULL, SSL_PKEY_P256_OQSDEFAULTSIG);
     /* ADD_MORE_OQS_SIG_HERE hybrid only */
 #endif
 }

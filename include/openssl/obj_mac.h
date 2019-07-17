@@ -5269,3 +5269,13 @@
 #define LN_dilithium4           "dilithium4"
 #define NID_dilithium4          1209
 #define OBJ_dilithium4          1L,3L,6L,1L,4L,1L,772L,1L,2L,2L,4L
+
+#define SN_oqsdefaultsig                "oqsdefaultsig"
+#define LN_oqsdefaultsig                "oqsdefaultsig"
+#define NID_oqsdefaultsig               1210
+#define OBJ_oqsdefaultsig               1L,3L,6L,1L,4L,1L,772L,1L,2L,2L,5L
+
+#define SN_p256_oqsdefaultsig           "p256_oqsdefaultsig"
+#define LN_p256_oqsdefaultsig           "p256_oqsdefaultsig"
+#define NID_p256_oqsdefaultsig          1211
+#define OBJ_p256_oqsdefaultsig          1L,3L,6L,1L,4L,1L,772L,1L,2L,2L,6L

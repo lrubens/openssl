@@ -647,6 +647,7 @@ static const ssl_trace_tbl ssl_sigalg_tbl[] = {
     {TLSEXT_SIGALG_dilithium2, "dilithium2"},
     {TLSEXT_SIGALG_dilithium3, "dilithium3"},
     {TLSEXT_SIGALG_dilithium4, "dilithium4"},
+    {TLSEXT_SIGALG_oqsdefaultsig, "oqsdefaultsig"},
     /* ADD_MORE_OQS_SIG_HERE */
     /* OQS hybrid schemes */
     {TLSEXT_SIGALG_p256_picnicL1FS, "p256_picnicL1FS"},
@@ -655,6 +656,7 @@ static const ssl_trace_tbl ssl_sigalg_tbl[] = {
     {TLSEXT_SIGALG_rsa3072_qteslaI, "rsa3072_qteslaI"},
     {TLSEXT_SIGALG_p384_qteslaIIIsize, "p256_qteslaIIIsize"},
     {TLSEXT_SIGALG_p384_qteslaIIIspeed, "rsa3072_qteslaIIIspeed"},
+    {TLSEXT_SIGALG_p256_oqsdefaultsig, "p256_oqsdefaultsig"},
     /* ADD_MORE_OQS_SIG_HERE hybrid only */
 #endif
 };

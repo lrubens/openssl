@@ -10,7 +10,7 @@
  */
 
 /* Serialized OID's */
-static const unsigned char so[7921] = {
+static const unsigned char so[7943] = {
     0x2A,0x86,0x48,0x86,0xF7,0x0D,                 /* [    0] OBJ_rsadsi */
     0x2A,0x86,0x48,0x86,0xF7,0x0D,0x01,            /* [    6] OBJ_pkcs */
     0x2A,0x86,0x48,0x86,0xF7,0x0D,0x02,0x02,       /* [   13] OBJ_md2 */
@@ -1091,9 +1091,11 @@ static const unsigned char so[7921] = {
     0x2B,0x06,0x01,0x04,0x01,0x86,0x04,0x01,0x02,0x02,0x02,  /* [ 7887] OBJ_dilithium2 */
     0x2B,0x06,0x01,0x04,0x01,0x86,0x04,0x01,0x02,0x02,0x03,  /* [ 7898] OBJ_dilithium3 */
     0x2B,0x06,0x01,0x04,0x01,0x86,0x04,0x01,0x02,0x02,0x04,  /* [ 7909] OBJ_dilithium4 */
+    0x2B,0x06,0x01,0x04,0x01,0x86,0x04,0x01,0x02,0x02,0x05,  /* [ 7920] OBJ_oqsdefaultsig */
+    0x2B,0x06,0x01,0x04,0x01,0x86,0x04,0x01,0x02,0x02,0x06,  /* [ 7931] OBJ_p256_oqsdefaultsig */
 };
 
-#define NUM_NID 1210
+#define NUM_NID 1212
 static const ASN1_OBJECT nid_objs[NUM_NID] = {
     {"UNDEF", "undefined", NID_undef},
     {"rsadsi", "RSA Data Security, Inc.", NID_rsadsi, 6, &so[0]},
@@ -2305,9 +2307,11 @@ static const ASN1_OBJECT nid_objs[NUM_NID] = {
     {"dilithium2", "dilithium2", NID_dilithium2, 11, &so[7887]},
     {"dilithium3", "dilithium3", NID_dilithium3, 11, &so[7898]},
     {"dilithium4", "dilithium4", NID_dilithium4, 11, &so[7909]},
+    {"oqsdefaultsig", "oqsdefaultsig", NID_oqsdefaultsig, 11, &so[7920]},
+    {"p256_oqsdefaultsig", "p256_oqsdefaultsig", NID_p256_oqsdefaultsig, 11, &so[7931]},
 };
 
-#define NUM_SN 1201
+#define NUM_SN 1203
 static const unsigned int sn_objs[NUM_SN] = {
      364,    /* "AD_DVCS" */
      419,    /* "AES-128-CBC" */
@@ -3181,11 +3185,13 @@ static const unsigned int sn_objs[NUM_SN] = {
      139,    /* "nsSGC" */
       77,    /* "nsSslServerName" */
      681,    /* "onBasis" */
+    1210,    /* "oqsdefaultsig" */
     1089,    /* "organizationIdentifier" */
      491,    /* "organizationalStatus" */
     1141,    /* "oscca" */
      475,    /* "otherMailbox" */
      876,    /* "owner" */
+    1211,    /* "p256_oqsdefaultsig" */
     1198,    /* "p256_picnicL1FS" */
     1201,    /* "p256_qteslaI" */
     1204,    /* "p384_qteslaIIIsize" */
@@ -3512,7 +3518,7 @@ static const unsigned int sn_objs[NUM_SN] = {
     1093,    /* "x509ExtAdmission" */
 };
 
-#define NUM_LN 1201
+#define NUM_LN 1203
 static const unsigned int ln_objs[NUM_LN] = {
      363,    /* "AD Time Stamping" */
      405,    /* "ANSI X9.62" */
@@ -4356,6 +4362,7 @@ static const unsigned int ln_objs[NUM_LN] = {
      481,    /* "nSRecord" */
      173,    /* "name" */
      681,    /* "onBasis" */
+    1210,    /* "oqsdefaultsig" */
      379,    /* "org" */
     1089,    /* "organizationIdentifier" */
       17,    /* "organizationName" */
@@ -4364,6 +4371,7 @@ static const unsigned int ln_objs[NUM_LN] = {
     1141,    /* "oscca" */
      475,    /* "otherMailbox" */
      876,    /* "owner" */
+    1211,    /* "p256_oqsdefaultsig" */
     1198,    /* "p256_picnicL1FS" */
     1201,    /* "p256_qteslaI" */
     1204,    /* "p384_qteslaIIIsize" */
@@ -4717,7 +4725,7 @@ static const unsigned int ln_objs[NUM_LN] = {
      125,    /* "zlib compression" */
 };
 
-#define NUM_OBJ 1086
+#define NUM_OBJ 1088
 static const unsigned int obj_objs[NUM_OBJ] = {
        0,    /* OBJ_undef                        0 */
      181,    /* OBJ_iso                          1 */
@@ -5792,6 +5800,8 @@ static const unsigned int obj_objs[NUM_OBJ] = {
     1207,    /* OBJ_dilithium2                   1 3 6 1 4 1 772 1 2 2 2 */
     1208,    /* OBJ_dilithium3                   1 3 6 1 4 1 772 1 2 2 3 */
     1209,    /* OBJ_dilithium4                   1 3 6 1 4 1 772 1 2 2 4 */
+    1210,    /* OBJ_oqsdefaultsig                1 3 6 1 4 1 772 1 2 2 5 */
+    1211,    /* OBJ_p256_oqsdefaultsig           1 3 6 1 4 1 772 1 2 2 6 */
     1056,    /* OBJ_blake2b512                   1 3 6 1 4 1 1722 12 2 1 16 */
     1057,    /* OBJ_blake2s256                   1 3 6 1 4 1 1722 12 2 2 8 */
     1159,    /* OBJ_dstu4145be                   1 2 804 2 1 1 1 1 3 1 1 1 1 */
