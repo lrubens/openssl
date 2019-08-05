@@ -215,6 +215,7 @@ static const TLS_GROUP_INFO oqs_nid_list[] = {
     {NID_OQS_sikep503, 128, TLS_CURVE_CUSTOM}, /* sikep503 (0x0220) */
     {NID_OQS_sikep610, 192, TLS_CURVE_CUSTOM}, /* sikep610 (0x0221) */
     {NID_OQS_sikep751, 256, TLS_CURVE_CUSTOM}, /* sikep751 (0x0222) */
+    {NID_OQS_round5_r5n1_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_1kem_0d (0x0223) */
 ///// OQS_TEMPLATE_FRAGMENT_OQS_NID_LIST_END
 };
     /* Hybrid OQS groups. Security level is classical. */
@@ -256,6 +257,7 @@ static const TLS_GROUP_INFO oqs_hybrid_nid_list[] = {
     {NID_OQS_p256_sikep503, 128, TLS_CURVE_CUSTOM}, /* p256 + sikep503 hybrid (0x0220) */
     {NID_OQS_p256_sikep610, 192, TLS_CURVE_CUSTOM}, /* p256 + sikep610 hybrid (0x0221) */
     {NID_OQS_p256_sikep751, 256, TLS_CURVE_CUSTOM}, /* p256 + sikep751 hybrid (0x0222) */
+    {NID_OQS_p256_round5_r5n1_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_1kem_0d hybrid (0x0223) */
 ///// OQS_TEMPLATE_FRAGMENT_OQS_NID_LIST_HYBRID_END
 };
 
@@ -311,6 +313,7 @@ static const uint16_t eccurves_default[] = {
     0x0220, /* OQS sikep503 */
     0x0221, /* OQS sikep610 */
     0x0222, /* OQS sikep751 */
+    0x0223, /* OQS round5_r5n1_1kem_0d */
 ///// OQS_TEMPLATE_FRAGMENT_ECCURVES_DEFAULT_END
     0x02FF, /* p256 - OQS default KEM hybrid */
 ///// OQS_TEMPLATE_FRAGMENT_ECCURVES_DEFAULT_HYBRID_START
@@ -349,6 +352,7 @@ static const uint16_t eccurves_default[] = {
     0x0320, /* p256 - OQS sikep503 hybrid */
     0x0321, /* p256 - OQS sikep610 hybrid */
     0x0322, /* p256 - OQS sikep751 hybrid */
+    0x0323, /* p256 - OQS round5_r5n1_1kem_0d hybrid */
 ///// OQS_TEMPLATE_FRAGMENT_ECCURVES_DEFAULT_HYBRID_END
 };
 

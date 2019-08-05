@@ -463,6 +463,7 @@ static const char* OQS_CURVE_ID_NAME_STR(int id) {
   case 0x0220: return "sikep503";
   case 0x0221: return "sikep610";
   case 0x0222: return "sikep751";
+  case 0x0223: return "round5_r5n1_1kem_0d";
   ///// OQS_TEMPLATE_FRAGMENT_OQS_CURVE_ID_NAME_STR_END
   case 0x02FF: return "p256-oqs_kem_default hybrid";
   ///// OQS_TEMPLATE_FRAGMENT_OQS_CURVE_ID_NAME_STR_HYBRID_START
@@ -501,6 +502,7 @@ static const char* OQS_CURVE_ID_NAME_STR(int id) {
   case 0x0320: return "p256-sikep503 hybrid";
   case 0x0321: return "p256-sikep610 hybrid";
   case 0x0322: return "p256-sikep751 hybrid";
+  case 0x0323: return "p256-round5_r5n1_1kem_0d hybrid";
   ///// OQS_TEMPLATE_FRAGMENT_OQS_CURVE_ID_NAME_STR_HYBRID_END
   default: return "";
   }
