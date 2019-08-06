@@ -12,7 +12,7 @@
 /out.*
 /tmp.*
 /configdata.pm
-/oqs
+# /oqs
 
 # *all* Makefiles
 Makefile
