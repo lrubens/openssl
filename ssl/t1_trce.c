@@ -568,6 +568,13 @@ static const ssl_trace_tbl ssl_groups_tbl[] = {
     {OQS_KEM_CURVEID(NID_OQS_sikep610), "sikep610"},
     {OQS_KEM_CURVEID(NID_OQS_sikep751), "sikep751"},
     {OQS_KEM_CURVEID(NID_OQS_round5_r5n1_1kem_0d), "round5_r5n1_1kem_0d"},
+    {OQS_KEM_CURVEID(NID_OQS_round5_r5n1_3kem_0d), "round5_r5n1_3kem_0d"},
+    {OQS_KEM_CURVEID(NID_OQS_round5_r5n1_5kem_0d), "round5_r5n1_5kem_0d"},
+    {OQS_KEM_CURVEID(NID_OQS_round5_r5nd_1kem_0d), "round5_r5nd_1kem_0d"},
+    {OQS_KEM_CURVEID(NID_OQS_round5_r5nd_3kem_0d), "round5_r5nd_3kem_0d"},
+    {OQS_KEM_CURVEID(NID_OQS_round5_r5nd_3kem_5d), "round5_r5nd_3kem_5d"},
+    {OQS_KEM_CURVEID(NID_OQS_round5_r5nd_5kem_0d), "round5_r5nd_5kem_0d"},
+    {OQS_KEM_CURVEID(NID_OQS_round5_r5nd_5kem_5d), "round5_r5nd_5kem_5d"},
 ///// OQS_TEMPLATE_FRAGMENT_SSL_GROUPS_TBL_END
     {OQS_KEM_CURVEID(NID_OQS_p256_KEM_DEFAULT), "p256 - OQS KEM default hybrid"},
 ///// OQS_TEMPLATE_FRAGMENT_SSL_GROUPS_TBL_HYBRID_START
@@ -607,6 +614,13 @@ static const ssl_trace_tbl ssl_groups_tbl[] = {
     {OQS_KEM_CURVEID(NID_OQS_p256_sikep610), "p256 - sikep610 hybrid"},
     {OQS_KEM_CURVEID(NID_OQS_p256_sikep751), "p256 - sikep751 hybrid"},
     {OQS_KEM_CURVEID(NID_OQS_p256_round5_r5n1_1kem_0d), "p256 - round5_r5n1_1kem_0d hybrid"},
+    {OQS_KEM_CURVEID(NID_OQS_p256_round5_r5n1_3kem_0d), "p256 - round5_r5n1_3kem_0d hybrid"},
+    {OQS_KEM_CURVEID(NID_OQS_p256_round5_r5n1_5kem_0d), "p256 - round5_r5n1_5kem_0d hybrid"},
+    {OQS_KEM_CURVEID(NID_OQS_p256_round5_r5nd_1kem_0d), "p256 - round5_r5nd_1kem_0d hybrid"},
+    {OQS_KEM_CURVEID(NID_OQS_p256_round5_r5nd_3kem_0d), "p256 - round5_r5nd_3kem_0d hybrid"},
+    {OQS_KEM_CURVEID(NID_OQS_p256_round5_r5nd_3kem_5d), "p256 - round5_r5nd_3kem_5d hybrid"},
+    {OQS_KEM_CURVEID(NID_OQS_p256_round5_r5nd_5kem_0d), "p256 - round5_r5nd_5kem_0d hybrid"},
+    {OQS_KEM_CURVEID(NID_OQS_p256_round5_r5nd_5kem_5d), "p256 - round5_r5nd_5kem_5d hybrid"},
 ///// OQS_TEMPLATE_FRAGMENT_SSL_GROUPS_TBL_HYBRID_END
     {0xFF01, "arbitrary_explicit_prime_curves"},
     {0xFF02, "arbitrary_explicit_char2_curves"}

@@ -464,6 +464,13 @@ static const char* OQS_CURVE_ID_NAME_STR(int id) {
   case 0x0221: return "sikep610";
   case 0x0222: return "sikep751";
   case 0x0223: return "round5_r5n1_1kem_0d";
+  case 0x0224: return "round5_r5n1_3kem_0d";
+  case 0x0225: return "round5_r5n1_5kem_0d";
+  case 0x0226: return "round5_r5nd_1kem_0d";
+  case 0x0227: return "round5_r5nd_3kem_0d";
+  case 0x0228: return "round5_r5nd_3kem_5d";
+  case 0x0229: return "round5_r5nd_5kem_0d";
+  case 0x0230: return "round5_r5nd_5kem_5d";
   ///// OQS_TEMPLATE_FRAGMENT_OQS_CURVE_ID_NAME_STR_END
   case 0x02FF: return "p256-oqs_kem_default hybrid";
   ///// OQS_TEMPLATE_FRAGMENT_OQS_CURVE_ID_NAME_STR_HYBRID_START
@@ -503,6 +510,13 @@ static const char* OQS_CURVE_ID_NAME_STR(int id) {
   case 0x0321: return "p256-sikep610 hybrid";
   case 0x0322: return "p256-sikep751 hybrid";
   case 0x0323: return "p256-round5_r5n1_1kem_0d hybrid";
+  case 0x0324: return "p256-round5_r5n1_3kem_0d hybrid";
+  case 0x0325: return "p256-round5_r5n1_5kem_0d hybrid";
+  case 0x0326: return "p256-round5_r5nd_1kem_0d hybrid";
+  case 0x0327: return "p256-round5_r5nd_3kem_0d hybrid";
+  case 0x0328: return "p256-round5_r5nd_3kem_5d hybrid";
+  case 0x0329: return "p256-round5_r5nd_5kem_0d hybrid";
+  case 0x0330: return "p256-round5_r5nd_5kem_5d hybrid";
   ///// OQS_TEMPLATE_FRAGMENT_OQS_CURVE_ID_NAME_STR_HYBRID_END
   default: return "";
   }

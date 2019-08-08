@@ -216,6 +216,13 @@ static const TLS_GROUP_INFO oqs_nid_list[] = {
     {NID_OQS_sikep610, 192, TLS_CURVE_CUSTOM}, /* sikep610 (0x0221) */
     {NID_OQS_sikep751, 256, TLS_CURVE_CUSTOM}, /* sikep751 (0x0222) */
     {NID_OQS_round5_r5n1_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_1kem_0d (0x0223) */
+    {NID_OQS_round5_r5n1_3kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_3kem_0d (0x0224) */
+    {NID_OQS_round5_r5n1_5kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_5kem_0d (0x0225) */
+    {NID_OQS_round5_r5nd_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_1kem_0d (0x0226) */
+    {NID_OQS_round5_r5nd_3kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_3kem_0d (0x0227) */
+    {NID_OQS_round5_r5nd_3kem_5d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_3kem_5d (0x0228) */
+    {NID_OQS_round5_r5nd_5kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_5kem_0d (0x0229) */
+    {NID_OQS_round5_r5nd_5kem_5d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_5kem_5d (0x0230) */
 ///// OQS_TEMPLATE_FRAGMENT_OQS_NID_LIST_END
 };
     /* Hybrid OQS groups. Security level is classical. */
@@ -258,6 +265,13 @@ static const TLS_GROUP_INFO oqs_hybrid_nid_list[] = {
     {NID_OQS_p256_sikep610, 192, TLS_CURVE_CUSTOM}, /* p256 + sikep610 hybrid (0x0221) */
     {NID_OQS_p256_sikep751, 256, TLS_CURVE_CUSTOM}, /* p256 + sikep751 hybrid (0x0222) */
     {NID_OQS_p256_round5_r5n1_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_1kem_0d hybrid (0x0223) */
+    {NID_OQS_p256_round5_r5n1_3kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_3kem_0d hybrid (0x0224) */
+    {NID_OQS_p256_round5_r5n1_5kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_5kem_0d hybrid (0x0225) */
+    {NID_OQS_p256_round5_r5nd_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_1kem_0d hybrid (0x0226) */
+    {NID_OQS_p256_round5_r5nd_3kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_3kem_0d hybrid (0x0227) */
+    {NID_OQS_p256_round5_r5nd_3kem_5d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_3kem_5d hybrid (0x0228) */
+    {NID_OQS_p256_round5_r5nd_5kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_5kem_0d hybrid (0x0229) */
+    {NID_OQS_p256_round5_r5nd_5kem_5d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_5kem_5d hybrid (0x0230) */
 ///// OQS_TEMPLATE_FRAGMENT_OQS_NID_LIST_HYBRID_END
 };
 
@@ -314,6 +328,13 @@ static const uint16_t eccurves_default[] = {
     0x0221, /* OQS sikep610 */
     0x0222, /* OQS sikep751 */
     0x0223, /* OQS round5_r5n1_1kem_0d */
+    0x0224, /* OQS round5_r5n1_3kem_0d */
+    0x0225, /* OQS round5_r5n1_5kem_0d */
+    0x0226, /* OQS round5_r5nd_1kem_0d */
+    0x0227, /* OQS round5_r5nd_3kem_0d */
+    0x0228, /* OQS round5_r5nd_3kem_5d */
+    0x0229, /* OQS round5_r5nd_5kem_0d */
+    0x0230, /* OQS round5_r5nd_5kem_5d */
 ///// OQS_TEMPLATE_FRAGMENT_ECCURVES_DEFAULT_END
     0x02FF, /* p256 - OQS default KEM hybrid */
 ///// OQS_TEMPLATE_FRAGMENT_ECCURVES_DEFAULT_HYBRID_START
@@ -353,6 +374,13 @@ static const uint16_t eccurves_default[] = {
     0x0321, /* p256 - OQS sikep610 hybrid */
     0x0322, /* p256 - OQS sikep751 hybrid */
     0x0323, /* p256 - OQS round5_r5n1_1kem_0d hybrid */
+    0x0324, /* p256 - OQS round5_r5n1_3kem_0d hybrid */
+    0x0325, /* p256 - OQS round5_r5n1_5kem_0d hybrid */
+    0x0326, /* p256 - OQS round5_r5nd_1kem_0d hybrid */
+    0x0327, /* p256 - OQS round5_r5nd_3kem_0d hybrid */
+    0x0328, /* p256 - OQS round5_r5nd_3kem_5d hybrid */
+    0x0329, /* p256 - OQS round5_r5nd_5kem_0d hybrid */
+    0x0330, /* p256 - OQS round5_r5nd_5kem_5d hybrid */
 ///// OQS_TEMPLATE_FRAGMENT_ECCURVES_DEFAULT_HYBRID_END
 };
 
