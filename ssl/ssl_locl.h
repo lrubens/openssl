@@ -501,15 +501,28 @@
 #define NID_OQS_sikep503 0x0220
 #define NID_OQS_sikep610 0x0221
 #define NID_OQS_sikep751 0x0222
-#define NID_OQS_round5_r5n1_1kem_0d 0x0223
-#define NID_OQS_round5_r5n1_3kem_0d 0x0224
-#define NID_OQS_round5_r5n1_5kem_0d 0x0225
-#define NID_OQS_round5_r5nd_1kem_0d 0x0226
-#define NID_OQS_round5_r5nd_3kem_0d 0x0227
-#define NID_OQS_round5_r5nd_3kem_5d 0x0228
-#define NID_OQS_round5_r5nd_5kem_0d 0x0229
-#define NID_OQS_round5_r5nd_5kem_5d 0x0230
-#define NID_OQS_END 0x0230
+#define NID_OQS_round5_r5nd_1kem_0d 0x223
+#define NID_OQS_round5_r5nd_0kem_2iot 0x224
+#define NID_OQS_round5_r5nd_1kem_5d 0x225
+#define NID_OQS_round5_r5nd_5kem_0d 0x226
+#define NID_OQS_round5_r5nd_1kem_4longkey 0x227
+#define NID_OQS_round5_r5nd_3kem_5d 0x228
+#define NID_OQS_round5_r5n1_3kem_0d 0x229
+#define NID_OQS_round5_r5n1_1kem_0d 0x22a
+#define NID_OQS_round5_r5n1_5kem_0d 0x22b
+#define NID_OQS_round5_r5nd_3kem_0d 0x22c
+#define NID_OQS_round5_r5nd_5kem_5d 0x22d
+#define NID_OQS_round5_r5n1_3ccakem_0smallct 0x22e
+#define NID_OQS_round5_r5nd_5ccakem_0d 0x22f
+#define NID_OQS_round5_r5nd_3ccakem_0d 0x230
+#define NID_OQS_round5_r5nd_5ccakem_5d 0x231
+#define NID_OQS_round5_r5nd_1ccakem_5d 0x232
+#define NID_OQS_round5_r5nd_1ccakem_0d 0x233
+#define NID_OQS_round5_r5n1_3ccakem_0d 0x234
+#define NID_OQS_round5_r5nd_3ccakem_5d 0x235
+#define NID_OQS_round5_r5n1_5ccakem_0d 0x236
+#define NID_OQS_round5_r5n1_1ccakem_0d 0x237
+#define NID_OQS_END 0x0237
 ///// OQS_TEMPLATE_FRAGMENT_DEFINE_NIDS_END
 
 #define NID_HYBRID_START           0x02FF
@@ -550,15 +563,28 @@
 #define NID_OQS_p256_sikep503 0x0320
 #define NID_OQS_p256_sikep610 0x0321
 #define NID_OQS_p256_sikep751 0x0322
-#define NID_OQS_p256_round5_r5n1_1kem_0d 0x0323
-#define NID_OQS_p256_round5_r5n1_3kem_0d 0x0324
-#define NID_OQS_p256_round5_r5n1_5kem_0d 0x0325
-#define NID_OQS_p256_round5_r5nd_1kem_0d 0x0326
-#define NID_OQS_p256_round5_r5nd_3kem_0d 0x0327
-#define NID_OQS_p256_round5_r5nd_3kem_5d 0x0328
-#define NID_OQS_p256_round5_r5nd_5kem_0d 0x0329
-#define NID_OQS_p256_round5_r5nd_5kem_5d 0x0330
-#define NID_HYBRID_END 0x0330
+#define NID_OQS_p256_round5_r5nd_1kem_0d 0x323
+#define NID_OQS_p256_round5_r5nd_0kem_2iot 0x324
+#define NID_OQS_p256_round5_r5nd_1kem_5d 0x325
+#define NID_OQS_p256_round5_r5nd_5kem_0d 0x326
+#define NID_OQS_p256_round5_r5nd_1kem_4longkey 0x327
+#define NID_OQS_p256_round5_r5nd_3kem_5d 0x328
+#define NID_OQS_p256_round5_r5n1_3kem_0d 0x329
+#define NID_OQS_p256_round5_r5n1_1kem_0d 0x32a
+#define NID_OQS_p256_round5_r5n1_5kem_0d 0x32b
+#define NID_OQS_p256_round5_r5nd_3kem_0d 0x32c
+#define NID_OQS_p256_round5_r5nd_5kem_5d 0x32d
+#define NID_OQS_p256_round5_r5n1_3ccakem_0smallct 0x32e
+#define NID_OQS_p256_round5_r5nd_5ccakem_0d 0x32f
+#define NID_OQS_p256_round5_r5nd_3ccakem_0d 0x330
+#define NID_OQS_p256_round5_r5nd_5ccakem_5d 0x331
+#define NID_OQS_p256_round5_r5nd_1ccakem_5d 0x332
+#define NID_OQS_p256_round5_r5nd_1ccakem_0d 0x333
+#define NID_OQS_p256_round5_r5n1_3ccakem_0d 0x334
+#define NID_OQS_p256_round5_r5nd_3ccakem_5d 0x335
+#define NID_OQS_p256_round5_r5n1_5ccakem_0d 0x336
+#define NID_OQS_p256_round5_r5n1_1ccakem_0d 0x337
+#define NID_HYBRID_END 0x0337
 ///// OQS_TEMPLATE_FRAGMENT_DEFINE_HYBRID_NIDS_END
 
 /* OQS TODO: add L3 algs with p384 curve */
@@ -607,16 +633,29 @@
   (nid == NID_OQS_sikep503 ? 0x0220 : \
   (nid == NID_OQS_sikep610 ? 0x0221 : \
   (nid == NID_OQS_sikep751 ? 0x0222 : \
-  (nid == NID_OQS_round5_r5n1_1kem_0d ? 0x0223 : \
-  (nid == NID_OQS_round5_r5n1_3kem_0d ? 0x0224 : \
-  (nid == NID_OQS_round5_r5n1_5kem_0d ? 0x0225 : \
-  (nid == NID_OQS_round5_r5nd_1kem_0d ? 0x0226 : \
-  (nid == NID_OQS_round5_r5nd_3kem_0d ? 0x0227 : \
-  (nid == NID_OQS_round5_r5nd_3kem_5d ? 0x0228 : \
-  (nid == NID_OQS_round5_r5nd_5kem_0d ? 0x0229 : \
-  (nid == NID_OQS_round5_r5nd_5kem_5d ? 0x0230 : \
+  (nid == NID_OQS_round5_r5nd_1kem_0d ? 0x223 : \
+  (nid == NID_OQS_round5_r5nd_0kem_2iot ? 0x224 : \
+  (nid == NID_OQS_round5_r5nd_1kem_5d ? 0x225 : \
+  (nid == NID_OQS_round5_r5nd_5kem_0d ? 0x226 : \
+  (nid == NID_OQS_round5_r5nd_1kem_4longkey ? 0x227 : \
+  (nid == NID_OQS_round5_r5nd_3kem_5d ? 0x228 : \
+  (nid == NID_OQS_round5_r5n1_3kem_0d ? 0x229 : \
+  (nid == NID_OQS_round5_r5n1_1kem_0d ? 0x22a : \
+  (nid == NID_OQS_round5_r5n1_5kem_0d ? 0x22b : \
+  (nid == NID_OQS_round5_r5nd_3kem_0d ? 0x22c : \
+  (nid == NID_OQS_round5_r5nd_5kem_5d ? 0x22d : \
+  (nid == NID_OQS_round5_r5n1_3ccakem_0smallct ? 0x22e : \
+  (nid == NID_OQS_round5_r5nd_5ccakem_0d ? 0x22f : \
+  (nid == NID_OQS_round5_r5nd_3ccakem_0d ? 0x230 : \
+  (nid == NID_OQS_round5_r5nd_5ccakem_5d ? 0x231 : \
+  (nid == NID_OQS_round5_r5nd_1ccakem_5d ? 0x232 : \
+  (nid == NID_OQS_round5_r5nd_1ccakem_0d ? 0x233 : \
+  (nid == NID_OQS_round5_r5n1_3ccakem_0d ? 0x234 : \
+  (nid == NID_OQS_round5_r5nd_3ccakem_5d ? 0x235 : \
+  (nid == NID_OQS_round5_r5n1_5ccakem_0d ? 0x236 : \
+  (nid == NID_OQS_round5_r5n1_1ccakem_0d ? 0x237 : \
   0 \
-  ))))))))))))))))))))))))))))))))))))))))))))
+  )))))))))))))))))))))))))))))))))))))))))))))))))))))))))
 ///// OQS_TEMPLATE_FRAGMENT_OQS_KEM_CURVEID_END
 
 ///// OQS_TEMPLATE_FRAGMENT_OQS_KEM_HYBRID_CURVEID_START
@@ -657,16 +696,29 @@
   (nid == NID_OQS_p256_sikep503 ? 0x0320 : \
   (nid == NID_OQS_p256_sikep610 ? 0x0321 : \
   (nid == NID_OQS_p256_sikep751 ? 0x0322 : \
-  (nid == NID_OQS_p256_round5_r5n1_1kem_0d ? 0x0323 : \
-  (nid == NID_OQS_p256_round5_r5n1_3kem_0d ? 0x0324 : \
-  (nid == NID_OQS_p256_round5_r5n1_5kem_0d ? 0x0325 : \
-  (nid == NID_OQS_p256_round5_r5nd_1kem_0d ? 0x0326 : \
-  (nid == NID_OQS_p256_round5_r5nd_3kem_0d ? 0x0327 : \
-  (nid == NID_OQS_p256_round5_r5nd_3kem_5d ? 0x0328 : \
-  (nid == NID_OQS_p256_round5_r5nd_5kem_0d ? 0x0329 : \
-  (nid == NID_OQS_p256_round5_r5nd_5kem_5d ? 0x0330 : \
+  (nid == NID_OQS_p256_round5_r5nd_1kem_0d ? 0x323 : \
+  (nid == NID_OQS_p256_round5_r5nd_0kem_2iot ? 0x324 : \
+  (nid == NID_OQS_p256_round5_r5nd_1kem_5d ? 0x325 : \
+  (nid == NID_OQS_p256_round5_r5nd_5kem_0d ? 0x326 : \
+  (nid == NID_OQS_p256_round5_r5nd_1kem_4longkey ? 0x327 : \
+  (nid == NID_OQS_p256_round5_r5nd_3kem_5d ? 0x328 : \
+  (nid == NID_OQS_p256_round5_r5n1_3kem_0d ? 0x329 : \
+  (nid == NID_OQS_p256_round5_r5n1_1kem_0d ? 0x32a : \
+  (nid == NID_OQS_p256_round5_r5n1_5kem_0d ? 0x32b : \
+  (nid == NID_OQS_p256_round5_r5nd_3kem_0d ? 0x32c : \
+  (nid == NID_OQS_p256_round5_r5nd_5kem_5d ? 0x32d : \
+  (nid == NID_OQS_p256_round5_r5n1_3ccakem_0smallct ? 0x32e : \
+  (nid == NID_OQS_p256_round5_r5nd_5ccakem_0d ? 0x32f : \
+  (nid == NID_OQS_p256_round5_r5nd_3ccakem_0d ? 0x330 : \
+  (nid == NID_OQS_p256_round5_r5nd_5ccakem_5d ? 0x331 : \
+  (nid == NID_OQS_p256_round5_r5nd_1ccakem_5d ? 0x332 : \
+  (nid == NID_OQS_p256_round5_r5nd_1ccakem_0d ? 0x333 : \
+  (nid == NID_OQS_p256_round5_r5n1_3ccakem_0d ? 0x334 : \
+  (nid == NID_OQS_p256_round5_r5nd_3ccakem_5d ? 0x335 : \
+  (nid == NID_OQS_p256_round5_r5n1_5ccakem_0d ? 0x336 : \
+  (nid == NID_OQS_p256_round5_r5n1_1ccakem_0d ? 0x337 : \
   0 \
-  ))))))))))))))))))))))))))))))))))))))))))))
+  )))))))))))))))))))))))))))))))))))))))))))))))))))))))))
 ///// OQS_TEMPLATE_FRAGMENT_OQS_KEM_HYBRID_CURVEID_END
 
   /* Returns the OQS KEM NID for a curve ID */
@@ -708,16 +760,29 @@
   (curveID == 0x0220 || curveID == 0x0320 ? NID_OQS_sikep503 : \
   (curveID == 0x0221 || curveID == 0x0321 ? NID_OQS_sikep610 : \
   (curveID == 0x0222 || curveID == 0x0322 ? NID_OQS_sikep751 : \
-  (curveID == 0x0223 || curveID == 0x0323 ? NID_OQS_round5_r5n1_1kem_0d : \
-  (curveID == 0x0224 || curveID == 0x0324 ? NID_OQS_round5_r5n1_3kem_0d : \
-  (curveID == 0x0225 || curveID == 0x0325 ? NID_OQS_round5_r5n1_5kem_0d : \
-  (curveID == 0x0226 || curveID == 0x0326 ? NID_OQS_round5_r5nd_1kem_0d : \
-  (curveID == 0x0227 || curveID == 0x0327 ? NID_OQS_round5_r5nd_3kem_0d : \
-  (curveID == 0x0228 || curveID == 0x0328 ? NID_OQS_round5_r5nd_3kem_5d : \
-  (curveID == 0x0229 || curveID == 0x0329 ? NID_OQS_round5_r5nd_5kem_0d : \
-  (curveID == 0x0230 || curveID == 0x0330 ? NID_OQS_round5_r5nd_5kem_5d : \
+  (curveID == 0x223 || curveID == 0x323 ? NID_OQS_round5_r5nd_1kem_0d : \
+  (curveID == 0x224 || curveID == 0x324 ? NID_OQS_round5_r5nd_0kem_2iot : \
+  (curveID == 0x225 || curveID == 0x325 ? NID_OQS_round5_r5nd_1kem_5d : \
+  (curveID == 0x226 || curveID == 0x326 ? NID_OQS_round5_r5nd_5kem_0d : \
+  (curveID == 0x227 || curveID == 0x327 ? NID_OQS_round5_r5nd_1kem_4longkey : \
+  (curveID == 0x228 || curveID == 0x328 ? NID_OQS_round5_r5nd_3kem_5d : \
+  (curveID == 0x229 || curveID == 0x329 ? NID_OQS_round5_r5n1_3kem_0d : \
+  (curveID == 0x22a || curveID == 0x32a ? NID_OQS_round5_r5n1_1kem_0d : \
+  (curveID == 0x22b || curveID == 0x32b ? NID_OQS_round5_r5n1_5kem_0d : \
+  (curveID == 0x22c || curveID == 0x32c ? NID_OQS_round5_r5nd_3kem_0d : \
+  (curveID == 0x22d || curveID == 0x32d ? NID_OQS_round5_r5nd_5kem_5d : \
+  (curveID == 0x22e || curveID == 0x32e ? NID_OQS_round5_r5n1_3ccakem_0smallct : \
+  (curveID == 0x22f || curveID == 0x32f ? NID_OQS_round5_r5nd_5ccakem_0d : \
+  (curveID == 0x230 || curveID == 0x330 ? NID_OQS_round5_r5nd_3ccakem_0d : \
+  (curveID == 0x231 || curveID == 0x331 ? NID_OQS_round5_r5nd_5ccakem_5d : \
+  (curveID == 0x232 || curveID == 0x332 ? NID_OQS_round5_r5nd_1ccakem_5d : \
+  (curveID == 0x233 || curveID == 0x333 ? NID_OQS_round5_r5nd_1ccakem_0d : \
+  (curveID == 0x234 || curveID == 0x334 ? NID_OQS_round5_r5n1_3ccakem_0d : \
+  (curveID == 0x235 || curveID == 0x335 ? NID_OQS_round5_r5nd_3ccakem_5d : \
+  (curveID == 0x236 || curveID == 0x336 ? NID_OQS_round5_r5n1_5ccakem_0d : \
+  (curveID == 0x237 || curveID == 0x337 ? NID_OQS_round5_r5n1_1ccakem_0d : \
   0 \
-  ))))))))))))))))))))))))))))))))))))))))))))
+  )))))))))))))))))))))))))))))))))))))))))))))))))))))))))
 ///// OQS_TEMPLATE_FRAGMENT_OQS_KEM_NID_END
 
 /* Returns true if the curve ID is for an OQS KEM */
@@ -765,16 +830,29 @@
   (nid == NID_OQS_sikep503 ? OQS_KEM_alg_sike_p503 : \
   (nid == NID_OQS_sikep610 ? OQS_KEM_alg_sike_p610 : \
   (nid == NID_OQS_sikep751 ? OQS_KEM_alg_sike_p751 : \
-  (nid == NID_OQS_round5_r5n1_1kem_0d ? OQS_KEM_alg_round5_r5n1_1kem_0d : \
-  (nid == NID_OQS_round5_r5n1_3kem_0d ? OQS_KEM_alg_round5_r5n1_3kem_0d : \
-  (nid == NID_OQS_round5_r5n1_5kem_0d ? OQS_KEM_alg_round5_r5n1_5kem_0d : \
   (nid == NID_OQS_round5_r5nd_1kem_0d ? OQS_KEM_alg_round5_r5nd_1kem_0d : \
-  (nid == NID_OQS_round5_r5nd_3kem_0d ? OQS_KEM_alg_round5_r5nd_3kem_0d : \
-  (nid == NID_OQS_round5_r5nd_3kem_5d ? OQS_KEM_alg_round5_r5nd_3kem_5d : \
+  (nid == NID_OQS_round5_r5nd_0kem_2iot ? OQS_KEM_alg_round5_r5nd_0kem_2iot : \
+  (nid == NID_OQS_round5_r5nd_1kem_5d ? OQS_KEM_alg_round5_r5nd_1kem_5d : \
   (nid == NID_OQS_round5_r5nd_5kem_0d ? OQS_KEM_alg_round5_r5nd_5kem_0d : \
+  (nid == NID_OQS_round5_r5nd_1kem_4longkey ? OQS_KEM_alg_round5_r5nd_1kem_4longkey : \
+  (nid == NID_OQS_round5_r5nd_3kem_5d ? OQS_KEM_alg_round5_r5nd_3kem_5d : \
+  (nid == NID_OQS_round5_r5n1_3kem_0d ? OQS_KEM_alg_round5_r5n1_3kem_0d : \
+  (nid == NID_OQS_round5_r5n1_1kem_0d ? OQS_KEM_alg_round5_r5n1_1kem_0d : \
+  (nid == NID_OQS_round5_r5n1_5kem_0d ? OQS_KEM_alg_round5_r5n1_5kem_0d : \
+  (nid == NID_OQS_round5_r5nd_3kem_0d ? OQS_KEM_alg_round5_r5nd_3kem_0d : \
   (nid == NID_OQS_round5_r5nd_5kem_5d ? OQS_KEM_alg_round5_r5nd_5kem_5d : \
+  (nid == NID_OQS_round5_r5n1_3ccakem_0smallct ? OQS_KEM_alg_round5_r5n1_3ccakem_0smallct : \
+  (nid == NID_OQS_round5_r5nd_5ccakem_0d ? OQS_KEM_alg_round5_r5nd_5ccakem_0d : \
+  (nid == NID_OQS_round5_r5nd_3ccakem_0d ? OQS_KEM_alg_round5_r5nd_3ccakem_0d : \
+  (nid == NID_OQS_round5_r5nd_5ccakem_5d ? OQS_KEM_alg_round5_r5nd_5ccakem_5d : \
+  (nid == NID_OQS_round5_r5nd_1ccakem_5d ? OQS_KEM_alg_round5_r5nd_1ccakem_5d : \
+  (nid == NID_OQS_round5_r5nd_1ccakem_0d ? OQS_KEM_alg_round5_r5nd_1ccakem_0d : \
+  (nid == NID_OQS_round5_r5n1_3ccakem_0d ? OQS_KEM_alg_round5_r5n1_3ccakem_0d : \
+  (nid == NID_OQS_round5_r5nd_3ccakem_5d ? OQS_KEM_alg_round5_r5nd_3ccakem_5d : \
+  (nid == NID_OQS_round5_r5n1_5ccakem_0d ? OQS_KEM_alg_round5_r5n1_5ccakem_0d : \
+  (nid == NID_OQS_round5_r5n1_1ccakem_0d ? OQS_KEM_alg_round5_r5n1_1ccakem_0d : \
   0 \
-  ))))))))))))))))))))))))))))))))))))))))))))
+  )))))))))))))))))))))))))))))))))))))))))))))))))))))))))
 ///// OQS_TEMPLATE_FRAGMENT_OQS_ALG_NAME_END
 
 /* Returns the classical nid for an hybrid alg (FIXMEOQS: only secp256r1 (23) is supported for now) */

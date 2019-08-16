@@ -215,14 +215,27 @@ static const TLS_GROUP_INFO oqs_nid_list[] = {
     {NID_OQS_sikep503, 128, TLS_CURVE_CUSTOM}, /* sikep503 (0x0220) */
     {NID_OQS_sikep610, 192, TLS_CURVE_CUSTOM}, /* sikep610 (0x0221) */
     {NID_OQS_sikep751, 256, TLS_CURVE_CUSTOM}, /* sikep751 (0x0222) */
-    {NID_OQS_round5_r5n1_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_1kem_0d (0x0223) */
-    {NID_OQS_round5_r5n1_3kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_3kem_0d (0x0224) */
-    {NID_OQS_round5_r5n1_5kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_5kem_0d (0x0225) */
-    {NID_OQS_round5_r5nd_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_1kem_0d (0x0226) */
-    {NID_OQS_round5_r5nd_3kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_3kem_0d (0x0227) */
-    {NID_OQS_round5_r5nd_3kem_5d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_3kem_5d (0x0228) */
-    {NID_OQS_round5_r5nd_5kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_5kem_0d (0x0229) */
-    {NID_OQS_round5_r5nd_5kem_5d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_5kem_5d (0x0230) */
+    {NID_OQS_round5_r5nd_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_1kem_0d (0x223) */
+    {NID_OQS_round5_r5nd_0kem_2iot, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_0kem_2iot (0x224) */
+    {NID_OQS_round5_r5nd_1kem_5d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_1kem_5d (0x225) */
+    {NID_OQS_round5_r5nd_5kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_5kem_0d (0x226) */
+    {NID_OQS_round5_r5nd_1kem_4longkey, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_1kem_4longkey (0x227) */
+    {NID_OQS_round5_r5nd_3kem_5d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_3kem_5d (0x228) */
+    {NID_OQS_round5_r5n1_3kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_3kem_0d (0x229) */
+    {NID_OQS_round5_r5n1_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_1kem_0d (0x22a) */
+    {NID_OQS_round5_r5n1_5kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_5kem_0d (0x22b) */
+    {NID_OQS_round5_r5nd_3kem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_3kem_0d (0x22c) */
+    {NID_OQS_round5_r5nd_5kem_5d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_5kem_5d (0x22d) */
+    {NID_OQS_round5_r5n1_3ccakem_0smallct, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_3ccakem_0smallct (0x22e) */
+    {NID_OQS_round5_r5nd_5ccakem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_5ccakem_0d (0x22f) */
+    {NID_OQS_round5_r5nd_3ccakem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_3ccakem_0d (0x230) */
+    {NID_OQS_round5_r5nd_5ccakem_5d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_5ccakem_5d (0x231) */
+    {NID_OQS_round5_r5nd_1ccakem_5d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_1ccakem_5d (0x232) */
+    {NID_OQS_round5_r5nd_1ccakem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_1ccakem_0d (0x233) */
+    {NID_OQS_round5_r5n1_3ccakem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_3ccakem_0d (0x234) */
+    {NID_OQS_round5_r5nd_3ccakem_5d, 256, TLS_CURVE_CUSTOM}, /* round5_r5nd_3ccakem_5d (0x235) */
+    {NID_OQS_round5_r5n1_5ccakem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_5ccakem_0d (0x236) */
+    {NID_OQS_round5_r5n1_1ccakem_0d, 256, TLS_CURVE_CUSTOM}, /* round5_r5n1_1ccakem_0d (0x237) */
 ///// OQS_TEMPLATE_FRAGMENT_OQS_NID_LIST_END
 };
     /* Hybrid OQS groups. Security level is classical. */
@@ -264,14 +277,27 @@ static const TLS_GROUP_INFO oqs_hybrid_nid_list[] = {
     {NID_OQS_p256_sikep503, 128, TLS_CURVE_CUSTOM}, /* p256 + sikep503 hybrid (0x0220) */
     {NID_OQS_p256_sikep610, 192, TLS_CURVE_CUSTOM}, /* p256 + sikep610 hybrid (0x0221) */
     {NID_OQS_p256_sikep751, 256, TLS_CURVE_CUSTOM}, /* p256 + sikep751 hybrid (0x0222) */
-    {NID_OQS_p256_round5_r5n1_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_1kem_0d hybrid (0x0223) */
-    {NID_OQS_p256_round5_r5n1_3kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_3kem_0d hybrid (0x0224) */
-    {NID_OQS_p256_round5_r5n1_5kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_5kem_0d hybrid (0x0225) */
-    {NID_OQS_p256_round5_r5nd_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_1kem_0d hybrid (0x0226) */
-    {NID_OQS_p256_round5_r5nd_3kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_3kem_0d hybrid (0x0227) */
-    {NID_OQS_p256_round5_r5nd_3kem_5d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_3kem_5d hybrid (0x0228) */
-    {NID_OQS_p256_round5_r5nd_5kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_5kem_0d hybrid (0x0229) */
-    {NID_OQS_p256_round5_r5nd_5kem_5d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_5kem_5d hybrid (0x0230) */
+    {NID_OQS_p256_round5_r5nd_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_1kem_0d hybrid (0x223) */
+    {NID_OQS_p256_round5_r5nd_0kem_2iot, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_0kem_2iot hybrid (0x224) */
+    {NID_OQS_p256_round5_r5nd_1kem_5d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_1kem_5d hybrid (0x225) */
+    {NID_OQS_p256_round5_r5nd_5kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_5kem_0d hybrid (0x226) */
+    {NID_OQS_p256_round5_r5nd_1kem_4longkey, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_1kem_4longkey hybrid (0x227) */
+    {NID_OQS_p256_round5_r5nd_3kem_5d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_3kem_5d hybrid (0x228) */
+    {NID_OQS_p256_round5_r5n1_3kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_3kem_0d hybrid (0x229) */
+    {NID_OQS_p256_round5_r5n1_1kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_1kem_0d hybrid (0x22a) */
+    {NID_OQS_p256_round5_r5n1_5kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_5kem_0d hybrid (0x22b) */
+    {NID_OQS_p256_round5_r5nd_3kem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_3kem_0d hybrid (0x22c) */
+    {NID_OQS_p256_round5_r5nd_5kem_5d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_5kem_5d hybrid (0x22d) */
+    {NID_OQS_p256_round5_r5n1_3ccakem_0smallct, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_3ccakem_0smallct hybrid (0x22e) */
+    {NID_OQS_p256_round5_r5nd_5ccakem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_5ccakem_0d hybrid (0x22f) */
+    {NID_OQS_p256_round5_r5nd_3ccakem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_3ccakem_0d hybrid (0x230) */
+    {NID_OQS_p256_round5_r5nd_5ccakem_5d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_5ccakem_5d hybrid (0x231) */
+    {NID_OQS_p256_round5_r5nd_1ccakem_5d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_1ccakem_5d hybrid (0x232) */
+    {NID_OQS_p256_round5_r5nd_1ccakem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_1ccakem_0d hybrid (0x233) */
+    {NID_OQS_p256_round5_r5n1_3ccakem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_3ccakem_0d hybrid (0x234) */
+    {NID_OQS_p256_round5_r5nd_3ccakem_5d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5nd_3ccakem_5d hybrid (0x235) */
+    {NID_OQS_p256_round5_r5n1_5ccakem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_5ccakem_0d hybrid (0x236) */
+    {NID_OQS_p256_round5_r5n1_1ccakem_0d, 256, TLS_CURVE_CUSTOM}, /* p256 + round5_r5n1_1ccakem_0d hybrid (0x237) */
 ///// OQS_TEMPLATE_FRAGMENT_OQS_NID_LIST_HYBRID_END
 };
 
@@ -327,14 +353,27 @@ static const uint16_t eccurves_default[] = {
     0x0220, /* OQS sikep503 */
     0x0221, /* OQS sikep610 */
     0x0222, /* OQS sikep751 */
-    0x0223, /* OQS round5_r5n1_1kem_0d */
-    0x0224, /* OQS round5_r5n1_3kem_0d */
-    0x0225, /* OQS round5_r5n1_5kem_0d */
-    0x0226, /* OQS round5_r5nd_1kem_0d */
-    0x0227, /* OQS round5_r5nd_3kem_0d */
-    0x0228, /* OQS round5_r5nd_3kem_5d */
-    0x0229, /* OQS round5_r5nd_5kem_0d */
-    0x0230, /* OQS round5_r5nd_5kem_5d */
+    0x223, /* OQS round5_r5nd_1kem_0d */
+    0x224, /* OQS round5_r5nd_0kem_2iot */
+    0x225, /* OQS round5_r5nd_1kem_5d */
+    0x226, /* OQS round5_r5nd_5kem_0d */
+    0x227, /* OQS round5_r5nd_1kem_4longkey */
+    0x228, /* OQS round5_r5nd_3kem_5d */
+    0x229, /* OQS round5_r5n1_3kem_0d */
+    0x22a, /* OQS round5_r5n1_1kem_0d */
+    0x22b, /* OQS round5_r5n1_5kem_0d */
+    0x22c, /* OQS round5_r5nd_3kem_0d */
+    0x22d, /* OQS round5_r5nd_5kem_5d */
+    0x22e, /* OQS round5_r5n1_3ccakem_0smallct */
+    0x22f, /* OQS round5_r5nd_5ccakem_0d */
+    0x230, /* OQS round5_r5nd_3ccakem_0d */
+    0x231, /* OQS round5_r5nd_5ccakem_5d */
+    0x232, /* OQS round5_r5nd_1ccakem_5d */
+    0x233, /* OQS round5_r5nd_1ccakem_0d */
+    0x234, /* OQS round5_r5n1_3ccakem_0d */
+    0x235, /* OQS round5_r5nd_3ccakem_5d */
+    0x236, /* OQS round5_r5n1_5ccakem_0d */
+    0x237, /* OQS round5_r5n1_1ccakem_0d */
 ///// OQS_TEMPLATE_FRAGMENT_ECCURVES_DEFAULT_END
     0x02FF, /* p256 - OQS default KEM hybrid */
 ///// OQS_TEMPLATE_FRAGMENT_ECCURVES_DEFAULT_HYBRID_START
@@ -373,14 +412,27 @@ static const uint16_t eccurves_default[] = {
     0x0320, /* p256 - OQS sikep503 hybrid */
     0x0321, /* p256 - OQS sikep610 hybrid */
     0x0322, /* p256 - OQS sikep751 hybrid */
-    0x0323, /* p256 - OQS round5_r5n1_1kem_0d hybrid */
-    0x0324, /* p256 - OQS round5_r5n1_3kem_0d hybrid */
-    0x0325, /* p256 - OQS round5_r5n1_5kem_0d hybrid */
-    0x0326, /* p256 - OQS round5_r5nd_1kem_0d hybrid */
-    0x0327, /* p256 - OQS round5_r5nd_3kem_0d hybrid */
-    0x0328, /* p256 - OQS round5_r5nd_3kem_5d hybrid */
-    0x0329, /* p256 - OQS round5_r5nd_5kem_0d hybrid */
-    0x0330, /* p256 - OQS round5_r5nd_5kem_5d hybrid */
+    0x323, /* p256 - OQS round5_r5nd_1kem_0d hybrid */
+    0x324, /* p256 - OQS round5_r5nd_0kem_2iot hybrid */
+    0x325, /* p256 - OQS round5_r5nd_1kem_5d hybrid */
+    0x326, /* p256 - OQS round5_r5nd_5kem_0d hybrid */
+    0x327, /* p256 - OQS round5_r5nd_1kem_4longkey hybrid */
+    0x328, /* p256 - OQS round5_r5nd_3kem_5d hybrid */
+    0x329, /* p256 - OQS round5_r5n1_3kem_0d hybrid */
+    0x32a, /* p256 - OQS round5_r5n1_1kem_0d hybrid */
+    0x32b, /* p256 - OQS round5_r5n1_5kem_0d hybrid */
+    0x32c, /* p256 - OQS round5_r5nd_3kem_0d hybrid */
+    0x32d, /* p256 - OQS round5_r5nd_5kem_5d hybrid */
+    0x32e, /* p256 - OQS round5_r5n1_3ccakem_0smallct hybrid */
+    0x32f, /* p256 - OQS round5_r5nd_5ccakem_0d hybrid */
+    0x330, /* p256 - OQS round5_r5nd_3ccakem_0d hybrid */
+    0x331, /* p256 - OQS round5_r5nd_5ccakem_5d hybrid */
+    0x332, /* p256 - OQS round5_r5nd_1ccakem_5d hybrid */
+    0x333, /* p256 - OQS round5_r5nd_1ccakem_0d hybrid */
+    0x334, /* p256 - OQS round5_r5n1_3ccakem_0d hybrid */
+    0x335, /* p256 - OQS round5_r5nd_3ccakem_5d hybrid */
+    0x336, /* p256 - OQS round5_r5n1_5ccakem_0d hybrid */
+    0x337, /* p256 - OQS round5_r5n1_1ccakem_0d hybrid */
 ///// OQS_TEMPLATE_FRAGMENT_ECCURVES_DEFAULT_HYBRID_END
 };
 

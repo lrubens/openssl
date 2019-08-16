@@ -210,55 +210,133 @@ kems:
     oqs_alg: "OQS_KEM_alg_sike_p751"
     bit_security: 256
   -
-    name_group: "round5_r5n1_1kem_0d"
-    nid: "0x0223"
-    nid_hybrid_p256: "0x0323"
-    oqs_alg: "OQS_KEM_alg_round5_r5n1_1kem_0d"
-    bit_security: 256
-  -
-    name_group: "round5_r5n1_3kem_0d"
-    nid: "0x0224"
-    nid_hybrid_p256: "0x0324"
-    oqs_alg: "OQS_KEM_alg_round5_r5n1_3kem_0d"
-    bit_security: 256
-  -
-    name_group: "round5_r5n1_5kem_0d"
-    nid: "0x0225"
-    nid_hybrid_p256: "0x0325"
-    oqs_alg: "OQS_KEM_alg_round5_r5n1_5kem_0d"
-    bit_security: 256
-  -
     name_group: "round5_r5nd_1kem_0d"
-    nid: "0x0226"
-    nid_hybrid_p256: "0x0326"
+    nid: "0x223"
+    nid_hybrid_p256: "0x323"
     oqs_alg: "OQS_KEM_alg_round5_r5nd_1kem_0d"
     bit_security: 256
   -
-    name_group: "round5_r5nd_3kem_0d"
-    nid: "0x0227"
-    nid_hybrid_p256: "0x0327"
-    oqs_alg: "OQS_KEM_alg_round5_r5nd_3kem_0d"
+    name_group: "round5_r5nd_0kem_2iot"
+    nid: "0x224"
+    nid_hybrid_p256: "0x324"
+    oqs_alg: "OQS_KEM_alg_round5_r5nd_0kem_2iot"
     bit_security: 256
   -
-    name_group: "round5_r5nd_3kem_5d"
-    nid: "0x0228"
-    nid_hybrid_p256: "0x0328"
-    oqs_alg: "OQS_KEM_alg_round5_r5nd_3kem_5d"
+    name_group: "round5_r5nd_1kem_5d"
+    nid: "0x225"
+    nid_hybrid_p256: "0x325"
+    oqs_alg: "OQS_KEM_alg_round5_r5nd_1kem_5d"
     bit_security: 256
   -
     name_group: "round5_r5nd_5kem_0d"
-    nid: "0x0229"
-    nid_hybrid_p256: "0x0329"
+    nid: "0x226"
+    nid_hybrid_p256: "0x326"
     oqs_alg: "OQS_KEM_alg_round5_r5nd_5kem_0d"
     bit_security: 256
   -
+    name_group: "round5_r5nd_1kem_4longkey"
+    nid: "0x227"
+    nid_hybrid_p256: "0x327"
+    oqs_alg: "OQS_KEM_alg_round5_r5nd_1kem_4longkey"
+    bit_security: 256
+  -
+    name_group: "round5_r5nd_3kem_5d"
+    nid: "0x228"
+    nid_hybrid_p256: "0x328"
+    oqs_alg: "OQS_KEM_alg_round5_r5nd_3kem_5d"
+    bit_security: 256
+  -
+    name_group: "round5_r5n1_3kem_0d"
+    nid: "0x229"
+    nid_hybrid_p256: "0x329"
+    oqs_alg: "OQS_KEM_alg_round5_r5n1_3kem_0d"
+    bit_security: 256
+  -
+    name_group: "round5_r5n1_1kem_0d"
+    nid: "0x22a"
+    nid_hybrid_p256: "0x32a"
+    oqs_alg: "OQS_KEM_alg_round5_r5n1_1kem_0d"
+    bit_security: 256
+  -
+    name_group: "round5_r5n1_5kem_0d"
+    nid: "0x22b"
+    nid_hybrid_p256: "0x32b"
+    oqs_alg: "OQS_KEM_alg_round5_r5n1_5kem_0d"
+    bit_security: 256
+  -
+    name_group: "round5_r5nd_3kem_0d"
+    nid: "0x22c"
+    nid_hybrid_p256: "0x32c"
+    oqs_alg: "OQS_KEM_alg_round5_r5nd_3kem_0d"
+    bit_security: 256
+  -
     name_group: "round5_r5nd_5kem_5d"
-    nid: "0x0230"
-    nid_hybrid_p256: "0x0330"
+    nid: "0x22d"
+    nid_hybrid_p256: "0x32d"
     oqs_alg: "OQS_KEM_alg_round5_r5nd_5kem_5d"
     bit_security: 256
-kem_nid_end: "0x0230"
-kem_nid_hybrid_end: "0x0330"
+  -
+    name_group: "round5_r5n1_3ccakem_0smallct"
+    nid: "0x22e"
+    nid_hybrid_p256: "0x32e"
+    oqs_alg: "OQS_KEM_alg_round5_r5n1_3ccakem_0smallct"
+    bit_security: 256
+  -
+    name_group: "round5_r5nd_5ccakem_0d"
+    nid: "0x22f"
+    nid_hybrid_p256: "0x32f"
+    oqs_alg: "OQS_KEM_alg_round5_r5nd_5ccakem_0d"
+    bit_security: 256
+  -
+    name_group: "round5_r5nd_3ccakem_0d"
+    nid: "0x230"
+    nid_hybrid_p256: "0x330"
+    oqs_alg: "OQS_KEM_alg_round5_r5nd_3ccakem_0d"
+    bit_security: 256
+  -
+    name_group: "round5_r5nd_5ccakem_5d"
+    nid: "0x231"
+    nid_hybrid_p256: "0x331"
+    oqs_alg: "OQS_KEM_alg_round5_r5nd_5ccakem_5d"
+    bit_security: 256
+  -
+    name_group: "round5_r5nd_1ccakem_5d"
+    nid: "0x232"
+    nid_hybrid_p256: "0x332"
+    oqs_alg: "OQS_KEM_alg_round5_r5nd_1ccakem_5d"
+    bit_security: 256
+  -
+    name_group: "round5_r5nd_1ccakem_0d"
+    nid: "0x233"
+    nid_hybrid_p256: "0x333"
+    oqs_alg: "OQS_KEM_alg_round5_r5nd_1ccakem_0d"
+    bit_security: 256
+  -
+    name_group: "round5_r5n1_3ccakem_0d"
+    nid: "0x234"
+    nid_hybrid_p256: "0x334"
+    oqs_alg: "OQS_KEM_alg_round5_r5n1_3ccakem_0d"
+    bit_security: 256
+  -
+    name_group: "round5_r5nd_3ccakem_5d"
+    nid: "0x235"
+    nid_hybrid_p256: "0x335"
+    oqs_alg: "OQS_KEM_alg_round5_r5nd_3ccakem_5d"
+    bit_security: 256
+  -
+    name_group: "round5_r5n1_5ccakem_0d"
+    nid: "0x236"
+    nid_hybrid_p256: "0x336"
+    oqs_alg: "OQS_KEM_alg_round5_r5n1_5ccakem_0d"
+    bit_security: 256
+  -
+    name_group: "round5_r5n1_1ccakem_0d"
+    nid: "0x237"
+    nid_hybrid_p256: "0x337"
+    oqs_alg: "OQS_KEM_alg_round5_r5n1_1ccakem_0d"
+    bit_security: 256
+kem_nid_end: "0x0237"
+kem_nid_hybrid_end: "0x0337"
 unused_kems:
   -
     name_group: "ledacryptkemlt12"

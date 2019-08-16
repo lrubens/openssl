@@ -77,22 +77,48 @@ static int OQS_nid_from_string(const char *value) {
     nid = NID_OQS_sikep610;
   } else if (strncmp(value, "sikep751", len) == 0) {
     nid = NID_OQS_sikep751;
-  } else if (strncmp(value, "round5_r5n1_1kem_0d", len) == 0) {
-    nid = NID_OQS_round5_r5n1_1kem_0d;
-  } else if (strncmp(value, "round5_r5n1_3kem_0d", len) == 0) {
-    nid = NID_OQS_round5_r5n1_3kem_0d;
-  } else if (strncmp(value, "round5_r5n1_5kem_0d", len) == 0) {
-    nid = NID_OQS_round5_r5n1_5kem_0d;
   } else if (strncmp(value, "round5_r5nd_1kem_0d", len) == 0) {
     nid = NID_OQS_round5_r5nd_1kem_0d;
-  } else if (strncmp(value, "round5_r5nd_3kem_0d", len) == 0) {
-    nid = NID_OQS_round5_r5nd_3kem_0d;
-  } else if (strncmp(value, "round5_r5nd_3kem_5d", len) == 0) {
-    nid = NID_OQS_round5_r5nd_3kem_5d;
+  } else if (strncmp(value, "round5_r5nd_0kem_2iot", len) == 0) {
+    nid = NID_OQS_round5_r5nd_0kem_2iot;
+  } else if (strncmp(value, "round5_r5nd_1kem_5d", len) == 0) {
+    nid = NID_OQS_round5_r5nd_1kem_5d;
   } else if (strncmp(value, "round5_r5nd_5kem_0d", len) == 0) {
     nid = NID_OQS_round5_r5nd_5kem_0d;
+  } else if (strncmp(value, "round5_r5nd_1kem_4longkey", len) == 0) {
+    nid = NID_OQS_round5_r5nd_1kem_4longkey;
+  } else if (strncmp(value, "round5_r5nd_3kem_5d", len) == 0) {
+    nid = NID_OQS_round5_r5nd_3kem_5d;
+  } else if (strncmp(value, "round5_r5n1_3kem_0d", len) == 0) {
+    nid = NID_OQS_round5_r5n1_3kem_0d;
+  } else if (strncmp(value, "round5_r5n1_1kem_0d", len) == 0) {
+    nid = NID_OQS_round5_r5n1_1kem_0d;
+  } else if (strncmp(value, "round5_r5n1_5kem_0d", len) == 0) {
+    nid = NID_OQS_round5_r5n1_5kem_0d;
+  } else if (strncmp(value, "round5_r5nd_3kem_0d", len) == 0) {
+    nid = NID_OQS_round5_r5nd_3kem_0d;
   } else if (strncmp(value, "round5_r5nd_5kem_5d", len) == 0) {
     nid = NID_OQS_round5_r5nd_5kem_5d;
+  } else if (strncmp(value, "round5_r5n1_3ccakem_0smallct", len) == 0) {
+    nid = NID_OQS_round5_r5n1_3ccakem_0smallct;
+  } else if (strncmp(value, "round5_r5nd_5ccakem_0d", len) == 0) {
+    nid = NID_OQS_round5_r5nd_5ccakem_0d;
+  } else if (strncmp(value, "round5_r5nd_3ccakem_0d", len) == 0) {
+    nid = NID_OQS_round5_r5nd_3ccakem_0d;
+  } else if (strncmp(value, "round5_r5nd_5ccakem_5d", len) == 0) {
+    nid = NID_OQS_round5_r5nd_5ccakem_5d;
+  } else if (strncmp(value, "round5_r5nd_1ccakem_5d", len) == 0) {
+    nid = NID_OQS_round5_r5nd_1ccakem_5d;
+  } else if (strncmp(value, "round5_r5nd_1ccakem_0d", len) == 0) {
+    nid = NID_OQS_round5_r5nd_1ccakem_0d;
+  } else if (strncmp(value, "round5_r5n1_3ccakem_0d", len) == 0) {
+    nid = NID_OQS_round5_r5n1_3ccakem_0d;
+  } else if (strncmp(value, "round5_r5nd_3ccakem_5d", len) == 0) {
+    nid = NID_OQS_round5_r5nd_3ccakem_5d;
+  } else if (strncmp(value, "round5_r5n1_5ccakem_0d", len) == 0) {
+    nid = NID_OQS_round5_r5n1_5ccakem_0d;
+  } else if (strncmp(value, "round5_r5n1_1ccakem_0d", len) == 0) {
+    nid = NID_OQS_round5_r5n1_1ccakem_0d;
 ///// OQS_TEMPLATE_FRAGMENT_NID_FROM_STRING_END
   /* hybrid algs */
   } else if (strncmp(value,"p256-oqs_kem_default", len) == 0) {
@@ -168,22 +194,48 @@ static int OQS_nid_from_string(const char *value) {
     nid = NID_OQS_p256_sikep610;
   } else if (strncmp(value, "p256-sikep751", len) == 0) {
     nid = NID_OQS_p256_sikep751;
-  } else if (strncmp(value, "p256-round5_r5n1_1kem_0d", len) == 0) {
-    nid = NID_OQS_p256_round5_r5n1_1kem_0d;
-  } else if (strncmp(value, "p256-round5_r5n1_3kem_0d", len) == 0) {
-    nid = NID_OQS_p256_round5_r5n1_3kem_0d;
-  } else if (strncmp(value, "p256-round5_r5n1_5kem_0d", len) == 0) {
-    nid = NID_OQS_p256_round5_r5n1_5kem_0d;
   } else if (strncmp(value, "p256-round5_r5nd_1kem_0d", len) == 0) {
     nid = NID_OQS_p256_round5_r5nd_1kem_0d;
-  } else if (strncmp(value, "p256-round5_r5nd_3kem_0d", len) == 0) {
-    nid = NID_OQS_p256_round5_r5nd_3kem_0d;
-  } else if (strncmp(value, "p256-round5_r5nd_3kem_5d", len) == 0) {
-    nid = NID_OQS_p256_round5_r5nd_3kem_5d;
+  } else if (strncmp(value, "p256-round5_r5nd_0kem_2iot", len) == 0) {
+    nid = NID_OQS_p256_round5_r5nd_0kem_2iot;
+  } else if (strncmp(value, "p256-round5_r5nd_1kem_5d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5nd_1kem_5d;
   } else if (strncmp(value, "p256-round5_r5nd_5kem_0d", len) == 0) {
     nid = NID_OQS_p256_round5_r5nd_5kem_0d;
+  } else if (strncmp(value, "p256-round5_r5nd_1kem_4longkey", len) == 0) {
+    nid = NID_OQS_p256_round5_r5nd_1kem_4longkey;
+  } else if (strncmp(value, "p256-round5_r5nd_3kem_5d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5nd_3kem_5d;
+  } else if (strncmp(value, "p256-round5_r5n1_3kem_0d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5n1_3kem_0d;
+  } else if (strncmp(value, "p256-round5_r5n1_1kem_0d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5n1_1kem_0d;
+  } else if (strncmp(value, "p256-round5_r5n1_5kem_0d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5n1_5kem_0d;
+  } else if (strncmp(value, "p256-round5_r5nd_3kem_0d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5nd_3kem_0d;
   } else if (strncmp(value, "p256-round5_r5nd_5kem_5d", len) == 0) {
     nid = NID_OQS_p256_round5_r5nd_5kem_5d;
+  } else if (strncmp(value, "p256-round5_r5n1_3ccakem_0smallct", len) == 0) {
+    nid = NID_OQS_p256_round5_r5n1_3ccakem_0smallct;
+  } else if (strncmp(value, "p256-round5_r5nd_5ccakem_0d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5nd_5ccakem_0d;
+  } else if (strncmp(value, "p256-round5_r5nd_3ccakem_0d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5nd_3ccakem_0d;
+  } else if (strncmp(value, "p256-round5_r5nd_5ccakem_5d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5nd_5ccakem_5d;
+  } else if (strncmp(value, "p256-round5_r5nd_1ccakem_5d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5nd_1ccakem_5d;
+  } else if (strncmp(value, "p256-round5_r5nd_1ccakem_0d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5nd_1ccakem_0d;
+  } else if (strncmp(value, "p256-round5_r5n1_3ccakem_0d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5n1_3ccakem_0d;
+  } else if (strncmp(value, "p256-round5_r5nd_3ccakem_5d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5nd_3ccakem_5d;
+  } else if (strncmp(value, "p256-round5_r5n1_5ccakem_0d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5n1_5ccakem_0d;
+  } else if (strncmp(value, "p256-round5_r5n1_1ccakem_0d", len) == 0) {
+    nid = NID_OQS_p256_round5_r5n1_1ccakem_0d;
 ///// OQS_TEMPLATE_FRAGMENT_NID_FROM_STRING_HYBRID_END
   }
   return nid;

@@ -56,22 +56,48 @@ extern "C" {
 #define OQS_KEM_alg_kyber_768 "Kyber768"
 /** Algorithm identifier for Kyber1024 KEM. */
 #define OQS_KEM_alg_kyber_1024 "Kyber1024"
-/** Algorithm identifier for Round5-R5N1_1KEM_0d KEM. */
-#define OQS_KEM_alg_round5_r5n1_1kem_0d "Round5-R5N1_1KEM_0d"
-/** Algorithm identifier for Round5-R5N1_3KEM_0d KEM. */
-#define OQS_KEM_alg_round5_r5n1_3kem_0d "Round5-R5N1_3KEM_0d"
-/** Algorithm identifier for Round5-R5N1_5KEM_0d KEM. */
-#define OQS_KEM_alg_round5_r5n1_5kem_0d "Round5-R5N1_5KEM_0d"
 /** Algorithm identifier for Round5-R5ND_1KEM_0d KEM. */
 #define OQS_KEM_alg_round5_r5nd_1kem_0d "Round5-R5ND_1KEM_0d"
-/** Algorithm identifier for Round5-R5ND_3KEM_0d KEM. */
-#define OQS_KEM_alg_round5_r5nd_3kem_0d "Round5-R5ND_3KEM_0d"
-/** Algorithm identifier for Round5-R5ND_3KEM_5d KEM. */
-#define OQS_KEM_alg_round5_r5nd_3kem_5d "Round5-R5ND_3KEM_5d"
+/** Algorithm identifier for Round5-R5ND_0KEM_2iot KEM. */
+#define OQS_KEM_alg_round5_r5nd_0kem_2iot "Round5-R5ND_0KEM_2iot"
+/** Algorithm identifier for Round5-R5ND_1KEM_5d KEM. */
+#define OQS_KEM_alg_round5_r5nd_1kem_5d "Round5-R5ND_1KEM_5d"
 /** Algorithm identifier for Round5-R5ND_5KEM_0d KEM. */
 #define OQS_KEM_alg_round5_r5nd_5kem_0d "Round5-R5ND_5KEM_0d"
+/** Algorithm identifier for Round5-R5ND_1KEM_4longkey KEM. */
+#define OQS_KEM_alg_round5_r5nd_1kem_4longkey "Round5-R5ND_1KEM_4longkey"
+/** Algorithm identifier for Round5-R5ND_3KEM_5d KEM. */
+#define OQS_KEM_alg_round5_r5nd_3kem_5d "Round5-R5ND_3KEM_5d"
+/** Algorithm identifier for Round5-R5N1_3KEM_0d KEM. */
+#define OQS_KEM_alg_round5_r5n1_3kem_0d "Round5-R5N1_3KEM_0d"
+/** Algorithm identifier for Round5-R5N1_1KEM_0d KEM. */
+#define OQS_KEM_alg_round5_r5n1_1kem_0d "Round5-R5N1_1KEM_0d"
+/** Algorithm identifier for Round5-R5N1_5KEM_0d KEM. */
+#define OQS_KEM_alg_round5_r5n1_5kem_0d "Round5-R5N1_5KEM_0d"
+/** Algorithm identifier for Round5-R5ND_3KEM_0d KEM. */
+#define OQS_KEM_alg_round5_r5nd_3kem_0d "Round5-R5ND_3KEM_0d"
 /** Algorithm identifier for Round5-R5ND_5KEM_5d KEM. */
 #define OQS_KEM_alg_round5_r5nd_5kem_5d "Round5-R5ND_5KEM_5d"
+/** Algorithm identifier for Round5-R5N1_3CCAKEM_0smallCT KEM. */
+#define OQS_KEM_alg_round5_r5n1_3ccakem_0smallct "Round5-R5N1_3CCAKEM_0smallCT"
+/** Algorithm identifier for Round5-R5ND_5CCAKEM_0d KEM. */
+#define OQS_KEM_alg_round5_r5nd_5ccakem_0d "Round5-R5ND_5CCAKEM_0d"
+/** Algorithm identifier for Round5-R5ND_3CCAKEM_0d KEM. */
+#define OQS_KEM_alg_round5_r5nd_3ccakem_0d "Round5-R5ND_3CCAKEM_0d"
+/** Algorithm identifier for Round5-R5ND_5CCAKEM_5d KEM. */
+#define OQS_KEM_alg_round5_r5nd_5ccakem_5d "Round5-R5ND_5CCAKEM_5d"
+/** Algorithm identifier for Round5-R5ND_1CCAKEM_5d KEM. */
+#define OQS_KEM_alg_round5_r5nd_1ccakem_5d "Round5-R5ND_1CCAKEM_5d"
+/** Algorithm identifier for Round5-R5ND_1CCAKEM_0d KEM. */
+#define OQS_KEM_alg_round5_r5nd_1ccakem_0d "Round5-R5ND_1CCAKEM_0d"
+/** Algorithm identifier for Round5-R5N1_3CCAKEM_0d KEM. */
+#define OQS_KEM_alg_round5_r5n1_3ccakem_0d "Round5-R5N1_3CCAKEM_0d"
+/** Algorithm identifier for Round5-R5ND_3CCAKEM_5d KEM. */
+#define OQS_KEM_alg_round5_r5nd_3ccakem_5d "Round5-R5ND_3CCAKEM_5d"
+/** Algorithm identifier for Round5-R5N1_5CCAKEM_0d KEM. */
+#define OQS_KEM_alg_round5_r5n1_5ccakem_0d "Round5-R5N1_5CCAKEM_0d"
+/** Algorithm identifier for Round5-R5N1_1CCAKEM_0d KEM. */
+#define OQS_KEM_alg_round5_r5n1_1ccakem_0d "Round5-R5N1_1CCAKEM_0d"
 /** Algorithm identifier for NewHope-512-CCA KEM. */
 #define OQS_KEM_alg_newhope_512cca "NewHope-512-CCA"
 /** Algorithm identifier for NewHope-1024-CCA KEM. */
@@ -122,7 +148,7 @@ extern "C" {
 // EDIT-WHEN-ADDING-KEM
 ///// OQS_COPY_FROM_PQCLEAN_FRAGMENT_ALGS_LENGTH_START
 /** Number of algorithm identifiers above. */
-#define OQS_KEM_algs_length 44
+#define OQS_KEM_algs_length 57
 ///// OQS_COPY_FROM_PQCLEAN_FRAGMENT_ALGS_LENGTH_END
 
 /**
