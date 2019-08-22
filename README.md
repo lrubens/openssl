@@ -44,6 +44,7 @@ The following key exchange / key encapsulation mechanisms from liboqs are suppor
 - **NTRU**: `ntru_hps2048509`, `ntru_hps2048677`, `ntru_hps4096821`, `ntru_hrss701`
 - **Saber**: `lightsaber`, `saber`, `firesaber`
 - **SIDH** and **SIKE**: `sidhp434`, `sidhp503`, `sidhp610`, `sidhp751`, `sikep434`, `sikep503`, `sikep610`, `sikep751`
+- **Round5**: `r5nd_1kem_0d`, `r5nd_0kem_2iot`, `r5nd_1kem_5d`, `r5nd_5kem_0d`, `r5nd_1kem_4longkey`, `r5nd_3kem_5d`, `r5n1_3kem_0d`, `r5n1_1kem_0d`, `r5n1_5kem_0d`, `r5nd_3kem_0d`, `r5nd_5kem_5d`, `r5nd_5ccakem_0d`, `r5nd_3ccakem_0d`, `r5nd_5ccakem_5d`, `r5nd_1ccakem_5d`, `r5nd_1ccakem_0d`, `r5n1_3ccakem_0d`, `r5nd_3ccakem_5d`, `r5n1_5ccakem_0d`, `r5n1_1ccakem_0d`
 
 ### Authentication mechanisms
 
